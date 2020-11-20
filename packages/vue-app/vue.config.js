@@ -25,4 +25,7 @@ module.exports = {
         return args
       });
   },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? 'http://localhost:3003'
+    : '/'
 }

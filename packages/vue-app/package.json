@@ -6,7 +6,7 @@
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "serve": "serve -p 3003 ./dist"
+    "serve": "serve --cors -p 3003 ./dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",

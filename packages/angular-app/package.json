@@ -6,11 +6,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --deploy-url='http://localhost:3002/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "serve": "serve -p 3002 ./dist"
+    "serve": "serve --cors -p 3002 ./dist"
   },
   "private": true,
   "dependencies": {

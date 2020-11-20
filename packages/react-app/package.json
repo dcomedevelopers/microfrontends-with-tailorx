@@ -70,9 +70,9 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "PUBLIC_URL=http://localhost:3001/ node scripts/build.js",
     "test": "node scripts/test.js",
-    "serve": "serve -p 3001 ./build"
+    "serve": "serve --cors -p 3001 ./build"
   },
   "eslintConfig": {
     "extends": [
