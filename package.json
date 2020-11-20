@@ -6,6 +6,10 @@
   "author": "dcomedevelopers <dcomedevelopers@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.2.2",
     "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "commit": "cz"
   }
 }
