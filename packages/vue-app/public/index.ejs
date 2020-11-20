@@ -1,0 +1,9 @@
+<div id="vue-app">
+    <% files.css.forEach(function (src) { %>
+        <link rel="stylesheet" href="<%= src %>">
+    <% }) %>
+    <div id="vue-app-root"></div>
+    <% files.js.forEach(function (src) { %>
+            <script src="<%= src %>"></script>
+    <% }) %>
+</div>
