@@ -6,7 +6,6 @@ const path = require("path");
 const app = express();
 
 const tailor = new Tailor({
-  baseTemplatesCacheSize: 1,
   templatesPath: path.resolve(__dirname, "templates")
 });
 
