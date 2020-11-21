@@ -1,0 +1,20 @@
+.angular-header {
+    width: 100%;
+    background: #333;
+}
+
+.angular-header .container {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.angular-header img{
+    width: 50px;
+}
+
+.angular-header nav {
+
+}
