@@ -16,5 +16,25 @@
 }
 
 .angular-header nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.angular-header nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+}
+.angular-header nav a:visited, a:link {
+    color: #607D8B;
+}
+.angular-header nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+}
+.angular-header nav a.active {
+    color: #039be5;
 }
