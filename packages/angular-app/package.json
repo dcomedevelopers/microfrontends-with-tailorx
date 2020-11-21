@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url='http://localhost:3002/'",
+    "build": "ng build --prod --deploy-url='http://localhost:3002/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

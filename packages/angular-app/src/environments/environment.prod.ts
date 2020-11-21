@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  assetsBasePath: 'http://localhost:3002/'
 };

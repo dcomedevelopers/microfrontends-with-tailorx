@@ -9,7 +9,9 @@ const tailor = new Tailor({
   templatesPath: path.resolve(__dirname, "templates")
 });
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+
 app.get('/*', tailor.requestHandler);
 
 
