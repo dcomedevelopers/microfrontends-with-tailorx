@@ -1,5 +1,6 @@
 {
   "name": "microfrontends-with-tailorx",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:dcomedevelopers/microfrontends-with-tailorx.git",
@@ -7,9 +8,17 @@
   "license": "MIT",
   "devDependencies": {
     "commitizen": "^4.2.2",
-    "lerna": "^3.22.1"
+    "concurrently": "^5.3.0",
+    "lerna": "^3.22.1",
+    "wsrun": "^5.2.4"
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "yarn workspaces run build",
+    "start": "concurrently \"wsrun --parallel serve\"",
     "commit": "cz"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
