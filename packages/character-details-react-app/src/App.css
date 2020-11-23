@@ -1,0 +1,22 @@
+.react-character-details {
+    padding: 24px 0;
+    margin: auto;
+    max-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.react-character-details img.logo {
+    width: 50px;
+}
+
+.react-character-details img {
+    width: 150px;
+}
+
+.react-character-details .container {
+    margin: 24px 0;
+}
+
+.react-character-details .highlighter pre{
+    background: transparent !important;
+}

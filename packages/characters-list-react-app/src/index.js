@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('react-app-root')
+  document.getElementById('characters-list-react-app-root')
 );
 
 // If you want to start measuring performance in your app, pass a function

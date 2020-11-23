@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "character-details-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -53,6 +53,7 @@
     "react-dev-utils": "^11.0.0",
     "react-dom": "^17.0.1",
     "react-refresh": "^0.8.3",
+    "react-syntax-highlighter": "^15.3.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "8.0.2",
@@ -70,9 +71,9 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "PUBLIC_URL=http://localhost:3001/ node scripts/build.js",
+    "build": "PUBLIC_URL=http://localhost:3004/ node scripts/build.js",
     "test": "node scripts/test.js",
-    "serve": "serve --cors -p 3001 ./build"
+    "serve": "serve --cors -p 3004 ./build"
   },
   "eslintConfig": {
     "extends": [
