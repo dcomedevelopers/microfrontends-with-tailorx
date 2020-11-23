@@ -17,6 +17,7 @@
 }
 
 .react-character-list .character-card {
+    box-sizing: border-box;
     padding: 24px;
     margin:0 12px 24px;
     width:calc(20% - 24px);
@@ -24,7 +25,6 @@
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-
 
 .character-card img {
     width: 100%;
