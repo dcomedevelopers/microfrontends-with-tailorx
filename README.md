@@ -2,7 +2,7 @@
 come funziona TailorX e l'architettura microfrontends
 
 ## Links
-[Video: Micro frontend con tailorX](https://www.youtube.com/channel/UCTrF-dm6AYJhZox3ramKaXQ?view_as=subscriber)
+[Video: Micro frontend con tailorX](https://www.youtube.com/watch?v=2fyxRvgmEyo&feature=youtu.be)
 
 [Video: Cosa sono i micro frontend?](https://www.youtube.com/channel/UCTrF-dm6AYJhZox3ramKaXQ?view_as=subscriber)
 
